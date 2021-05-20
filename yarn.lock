@@ -919,16 +919,50 @@
     "@babel/helper-validator-identifier" "^7.14.0"
     to-fast-properties "^2.0.0"
 
-"@df_scope/df-ui@0.2.3":
-  version "0.2.3"
-  resolved "http://nexus.df-mic.com/repository/npm-group/@df_scope/df-ui/-/df-ui-0.2.3.tgz#62af1e4e20cb24972fdf2ec55ccb2afeb8ae8d4a"
-  integrity sha512-zScYmHTtyAugn8Ma2hABrzlYXcjocQJVcCoSk+Zu4tG3an+1/9+WF+k5ovHX43Q6wu+wBMLnh0SJKF1VcAV6Cg==
+"@df_scope/df-bui@^0.1.1":
+  version "0.1.1"
+  resolved "http://nexus.df-mic.com/repository/npm-group/@df_scope/df-bui/-/df-bui-0.1.1.tgz#e5b6a9cf54518b8fd9f787f01d94f3864330ba69"
+  integrity sha512-tV/zaveA5+t6eFrrR3ViUM7yK0l0JEUMZjrgP0nQna1yVkHErXLUKvCGlm8kOTNhEYvzCYWCeK9a9gtauPbs0w==
+  dependencies:
+    "@df_scope/df-ui" "^0.3.8"
+    "@df_scope/df-utils" "^0.0.2"
+    async-validator "^3.5.1"
+    axios "^0.21.1"
+    normalize-wheel "^1.0.1"
+    resize-observer-polyfill "^1.5.1"
+    throttle-debounce "^1.1.0"
+    vue "^2.6.11"
+
+"@df_scope/df-ui@^0.3.7":
+  version "0.3.7"
+  resolved "http://nexus.df-mic.com/repository/npm-group/@df_scope/df-ui/-/df-ui-0.3.7.tgz#36ce8f92c47a25c5f9a8cdba12da0de9e2041c23"
+  integrity sha512-42MkSIu2zkO81lO6LgyZp/9Qz0HLmlBAyfmBPDP4caPaOCiSFYdX6mzgr1ith2/aAH2YlCpwyhUXKfzV9YMkgg==
   dependencies:
     async-validator "^3.5.1"
     normalize-wheel "^1.0.1"
     resize-observer-polyfill "^1.5.1"
     throttle-debounce "^1.1.0"
     vue "^2.6.11"
+
+"@df_scope/df-ui@^0.3.8":
+  version "0.3.8"
+  resolved "http://nexus.df-mic.com/repository/npm-group/@df_scope/df-ui/-/df-ui-0.3.8.tgz#f6e7552eab09638df4106c5db4610935a374c370"
+  integrity sha512-tuW6pOMkhk0P7pLz6KUGH6Eo28oUIGDmrZc+aPTS2rv0pahyeuJ1KeZrmWSxGO1pBL/JTpiPYj86QuOrwCXAUQ==
+  dependencies:
+    async-validator "^3.5.1"
+    normalize-wheel "^1.0.1"
+    resize-observer-polyfill "^1.5.1"
+    throttle-debounce "^1.1.0"
+    vue "^2.6.11"
+
+"@df_scope/df-utils@^0.0.2":
+  version "0.0.2"
+  resolved "http://nexus.df-mic.com/repository/npm-group/@df_scope/df-utils/-/df-utils-0.0.2.tgz#49e1f58b0f6136c7dac06d9518da988d0afbe55d"
+  integrity sha512-n5fyNGPwN0rH5YjJKExZWu9Bk/sys2oVQEwa1HppMpkI6ptJpIdrL58ABbfM5O0fLzeGff66wh1FSQA24e3pgQ==
+  dependencies:
+    axios "^0.21.1"
+    lodash "^4.17.21"
+    moment "^2.29.1"
 
 "@hapi/address@2.x.x":
   version "2.1.4"
@@ -1872,6 +1906,13 @@ aws4@^1.8.0:
   version "1.11.0"
   resolved "https://registry.nlark.com/aws4/download/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha1-1h9G2DslGSUOJ4Ta9bCUeai0HFk=
+
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.npm.taobao.org/axios/download/axios-0.21.1.tgz?cache=0&sync_timestamp=1608609324963&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faxios%2Fdownload%2Faxios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha1-IlY0gZYvTWvemnbVFu8OXTwJsrg=
+  dependencies:
+    follow-redirects "^1.10.0"
 
 babel-eslint@^10.1.0:
   version "10.1.0"
@@ -3906,7 +3947,7 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
-follow-redirects@^1.0.0:
+follow-redirects@^1.0.0, follow-redirects@^1.10.0:
   version "1.14.1"
   resolved "https://registry.nlark.com/follow-redirects/download/follow-redirects-1.14.1.tgz#d9114ded0a1cfdd334e164e6662ad02bfd91ff43"
   integrity sha1-2RFN7Qoc/dM04WTmZirQK/2R/0M=
@@ -5201,7 +5242,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.npm.taobao.org/lodash.uniq/download/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.3, lodash@^4.2.0:
+lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.3, lodash@^4.2.0:
   version "4.17.21"
   resolved "https://registry.nlark.com/lodash/download/lodash-4.17.21.tgz?cache=0&sync_timestamp=1618847150612&other_urls=https%3A%2F%2Fregistry.nlark.com%2Flodash%2Fdownload%2Flodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw=
@@ -5468,6 +5509,11 @@ mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@^0.5.5, mkdirp@~0.5.1:
   integrity sha1-2Rzv1i0UNsoPQWIOJRKI1CAJne8=
   dependencies:
     minimist "^1.2.5"
+
+moment@^2.29.1:
+  version "2.29.1"
+  resolved "https://registry.npm.taobao.org/moment/download/moment-2.29.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmoment%2Fdownload%2Fmoment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
+  integrity sha1-sr52n6MZQL6e7qZGnAdeNQBvo9M=
 
 move-concurrently@^1.0.1:
   version "1.0.1"
