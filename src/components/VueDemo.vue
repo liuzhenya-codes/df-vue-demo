@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <div>
+    <df-x-table :data='[]'></df-x-table>
+  </div>
 </template>
 
 <script>

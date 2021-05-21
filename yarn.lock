@@ -933,10 +933,10 @@
     throttle-debounce "^1.1.0"
     vue "^2.6.11"
 
-"@df_scope/df-ui@^0.3.7":
-  version "0.3.7"
-  resolved "http://nexus.df-mic.com/repository/npm-group/@df_scope/df-ui/-/df-ui-0.3.7.tgz#36ce8f92c47a25c5f9a8cdba12da0de9e2041c23"
-  integrity sha512-42MkSIu2zkO81lO6LgyZp/9Qz0HLmlBAyfmBPDP4caPaOCiSFYdX6mzgr1ith2/aAH2YlCpwyhUXKfzV9YMkgg==
+"@df_scope/df-ui@^0.3.8":
+  version "0.3.8"
+  resolved "http://nexus.df-mic.com/repository/npm-group/@df_scope/df-ui/-/df-ui-0.3.8.tgz#f6e7552eab09638df4106c5db4610935a374c370"
+  integrity sha512-tuW6pOMkhk0P7pLz6KUGH6Eo28oUIGDmrZc+aPTS2rv0pahyeuJ1KeZrmWSxGO1pBL/JTpiPYj86QuOrwCXAUQ==
   dependencies:
     async-validator "^3.5.1"
     normalize-wheel "^1.0.1"
@@ -944,10 +944,10 @@
     throttle-debounce "^1.1.0"
     vue "^2.6.11"
 
-"@df_scope/df-ui@^0.3.8":
-  version "0.3.8"
-  resolved "http://nexus.df-mic.com/repository/npm-group/@df_scope/df-ui/-/df-ui-0.3.8.tgz#f6e7552eab09638df4106c5db4610935a374c370"
-  integrity sha512-tuW6pOMkhk0P7pLz6KUGH6Eo28oUIGDmrZc+aPTS2rv0pahyeuJ1KeZrmWSxGO1pBL/JTpiPYj86QuOrwCXAUQ==
+"@df_scope/df-ui@^0.4.3":
+  version "0.4.3"
+  resolved "http://nexus.df-mic.com/repository/npm-group/@df_scope/df-ui/-/df-ui-0.4.3.tgz#9ea176653e1aaa73269bf69fe53a5251d24f4d64"
+  integrity sha512-ABMreZuDuJy1bgSIUiGQHMW3Gj59zPRjkezxu4E+sAKDCmVxHeHtW3rjT27YEPjz3y22a1VMRn6gFKNMkY6QGA==
   dependencies:
     async-validator "^3.5.1"
     normalize-wheel "^1.0.1"
