@@ -944,10 +944,10 @@
     throttle-debounce "^1.1.0"
     vue "^2.6.11"
 
-"@df_scope/df-ui@^0.4.3":
-  version "0.4.3"
-  resolved "http://nexus.df-mic.com/repository/npm-group/@df_scope/df-ui/-/df-ui-0.4.3.tgz#9ea176653e1aaa73269bf69fe53a5251d24f4d64"
-  integrity sha512-ABMreZuDuJy1bgSIUiGQHMW3Gj59zPRjkezxu4E+sAKDCmVxHeHtW3rjT27YEPjz3y22a1VMRn6gFKNMkY6QGA==
+"@df_scope/df-ui@^1.1.0":
+  version "1.1.0"
+  resolved "http://nexus.df-mic.com/repository/npm-group/@df_scope/df-ui/-/df-ui-1.1.0.tgz#2d8aa3856d03d608d025e26f71e6965a6ebabec9"
+  integrity sha512-igakJtlQxEf0I541S+y66GXjT4jM0V77YaIzyXoio5dWXyzhlnlE+5qF+BoieXwqCSFuXcfhju/LF2L2yTW+7w==
   dependencies:
     async-validator "^3.5.1"
     normalize-wheel "^1.0.1"
