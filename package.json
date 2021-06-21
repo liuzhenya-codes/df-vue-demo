@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "@df_scope/df-bui": "^0.1.1",
-    "@df_scope/df-ui": "^1.1.0",
+    "@df_scope/df-ui": "^1.6.7",
+    "async-validator": "^3.5.2",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },

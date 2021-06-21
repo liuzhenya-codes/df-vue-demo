@@ -5,6 +5,7 @@ Vue.config.productionTip = false
 
 import DfUI from './plugins/df-ui'
 import '@df_scope/df-ui/lib/theme-chalk/index.css'
+import '@df_scope/df-ui/lib/theme-chalk/classes.css'
 
 Vue.use(DfUI)
 
